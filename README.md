@@ -10,7 +10,7 @@ Jiayi Li, Mingming Yang, Hao Wang, Simiao Li, Baolian Shan, Minpeng Xu, Jiayuan 
 
 ## Overview
 
-This repository provides the core implementation and a minimal usage example of orthogonal decomposition-based representation augmentation (ODRA) for imbalanced ERP-BCI decoding. ODRA performs augmentation in the learned representation space by combining minority-class discriminative projections with complementary components from training trials. The trained backbone remains fixed during representation augmentation and classifier-head fine-tuning.
+This repository provides the core implementation and a minimal usage example of orthogonal decomposition-based representation augmentation (ODRA) for imbalanced ERP-BCI decoding. ODRA performs augmentation in the learned representation space by recombining class-specific components from minority-class features with class-general components from training trials. The trained backbone remains fixed during representation augmentation and classifier head fine-tuning.
 
 The current release includes an EEGNet-based implementation and a minimal single-subject stratified five-fold cross-validation example.
 
